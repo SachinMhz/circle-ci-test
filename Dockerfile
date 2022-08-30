@@ -7,6 +7,8 @@ COPY package*.json ./
 
 RUN npm install
 
+RUN npm i -g react-scripts
+
 COPY . .
 
 EXPOSE 3000
