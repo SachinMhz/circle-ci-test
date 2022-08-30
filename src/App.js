@@ -6,8 +6,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+     <p>
+          Updated
+        </p>
         <p>
-          Edited this code from the github for CI CD Test
+          Update Edited this code from the github for CI CD Test
         </p>
         <a
           className="App-link"
